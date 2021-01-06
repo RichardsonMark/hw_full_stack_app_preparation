@@ -24,7 +24,9 @@
 
 # Extensions
 
-1. Each entry in MongoDB has a unique identifier (key_id) if we use this as an ObjectId then when we try to query the db for an instance, we know that it will give us a unique entry, rather than searching for a piece of data that is stored as a string, which may have a match/partial match elsewhere in the db.
+1. Why do we need to use ObjectId from the MongoDB driver?
+
+ Each entry in MongoDB has a unique identifier (key_id) if we use this as an ObjectId then when we try to query the db for an instance, we know that it will give us a unique entry, rather than searching for a piece of data that is stored as a string, which may have a match/partial match elsewhere in the db.
 
 
 Diagram the dataflow for removing a game is available at - Homework-FullStackGamesHubApp_Answers.png
