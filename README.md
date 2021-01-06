@@ -19,7 +19,7 @@
 4. As in Q1, games Router is responsible for defining the routes of the games resource. Also connecting/interacting with the db.  -- CRUD functionality from the DB games_hub
 5. Sends fetch requests to the server on the routes set up in the router.  -- this is defined in a 'helper'/'services' file called GamesService.js
 6. Get is the default type of fetch request, the optional second method is used when another type of request, such as Post or Delete are required.  -- a config object the things we will need: a method - (GET/PUT/POST), body - the payload, headers- an onject. we will need to specify the Content-Type as application/json
-7. Get Post Delete. -- index delete create
+7. Get Post Delete. -- index create delete
 8. MongoDB Driver lets us talk/connect to the DB (games_hub) from inside our app. -- to get collecion of games, all of this in server.js
 
 # Extensions
